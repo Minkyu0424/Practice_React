@@ -1,0 +1,8 @@
+.Loading {
+  display: flex;
+  font-size: 1em;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5em;
+}

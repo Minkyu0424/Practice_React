@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "kyuflix";
+  src: url("../fonts/BebasNeue.otf") format("opentype");
+}
+h1 {
+  font-size: 6em;
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 2em;
+}
+h3:hover {
+  text-decoration: underline;
+}
+h4 {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+* {
+  margin: 0;
+}
+body {
+  color: aliceblue;
+  background: #232526;
+}
+.genresUl {
+  line-height: 1.5em;
+}
+.main {
+  padding-top: 9em;
+  display: flex;
+  position: absolute;
+}
+.detailBox {
+  background-color: transparent;
+  position: absolute;
+  padding-top: 20em;
+  display: flex;
+  color: azure;
+  z-index: 0;
+}
+.detailPart {
+  display: flex;
+  justify-content: center;
+}
+
+.backgroundImg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter: brightness(40%);
+}

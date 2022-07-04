@@ -1,0 +1,30 @@
+.movieList {
+  display: flex;
+  flex-direction: row;
+  height: 15em;
+  width: 40em;
+  margin: 2em;
+  background-color: black;
+  column-gap: 1em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.movieList:hover {
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
+.movieImg {
+  height: 225px;
+  width: 150px;
+}
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  row-gap: 1em;
+  font-size: 1.2em;
+}
+.genresBox {
+  display: flex;
+  column-gap: 1em;
+}

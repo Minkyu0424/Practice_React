@@ -1,0 +1,55 @@
+a {
+  color: inherit;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+.title:hover, li:hover, i:hover {
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+.title {
+  font-size: 5em;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+li, i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.titleBox {
+  height: 5em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  font-family: "kyuflix";
+  column-gap: 3em;
+  z-index: 1;
+  justify-content: flex-end;
+}
+.titleBox:hover {
+  background-color: black;
+}
+.menuBar1 {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 3em;
+  font-size: 2.5em;
+  column-gap: 1.5em;
+}
+.menuBar2 {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  font-size: 2em;
+  list-style: none;
+  column-gap: 0.8em;
+  margin-right: 1.5em;
+}
