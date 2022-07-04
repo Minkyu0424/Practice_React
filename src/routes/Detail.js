@@ -16,7 +16,7 @@ function Detail() {
         setDatas(json.data.movie);
         setLoading(false);
       });
-  }, [id]);
+  }, []);
   console.log(datas);
   return (
     <div>
