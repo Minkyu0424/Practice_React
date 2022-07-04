@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react.try/static/css/main.3d0bfa62.css",
-    "main.js": "/react.try/static/js/main.c6ac81f4.js",
+    "main.js": "/react.try/static/js/main.e80fe48c.js",
     "static/media/BebasNeue.otf": "/react.try/static/media/BebasNeue.2f99e8e59eadc04454dc.otf",
     "static/media/slick.svg": "/react.try/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/react.try/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,10 +9,10 @@
     "static/media/slick.woff": "/react.try/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react.try/index.html",
     "main.3d0bfa62.css.map": "/react.try/static/css/main.3d0bfa62.css.map",
-    "main.c6ac81f4.js.map": "/react.try/static/js/main.c6ac81f4.js.map"
+    "main.e80fe48c.js.map": "/react.try/static/js/main.e80fe48c.js.map"
   },
   "entrypoints": [
     "static/css/main.3d0bfa62.css",
-    "static/js/main.c6ac81f4.js"
+    "static/js/main.e80fe48c.js"
   ]
 }
